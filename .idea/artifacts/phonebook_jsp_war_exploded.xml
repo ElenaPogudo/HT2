@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="phonebook_jsp:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/phonebook_jsp_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="phonebook_jsp" />
+        </element>
+      </element>
+      <element id="library" level="module" name="mysql-connector-java-5.1.18-bin.jar" module-name="phonebook_jsp" />
+      <element id="javaee-facet-resources" facet="phonebook_jsp/web/Web" />
+    </root>
+  </artifact>
+</component>
